@@ -1,8 +1,8 @@
-import { createDestination } from "@/app/actions/destination";
+import { createDestinationAction } from "@/app/actions/destination";
 
 export default function NewDestinationForm() {
   return (
-    <form className="new-destination-form" action={createDestination}>
+    <form className="new-destination-form" action={createDestinationAction}>
       <input
         type="text"
         name="title"
