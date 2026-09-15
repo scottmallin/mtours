@@ -1,3 +1,19 @@
+# MTours
+
+MTours is an interdimensional holiday app where you can vacay literally anywhere ever.
+
+The M stands for Maybe. Maybe you'll have a good time. Maybe you won't. The only thing that's guaranteed is no refunds.
+
+## About MTours
+
+This is a next.js app, built with TypeScript, Tailwind CSS, ESLint and uses SQLite for the backend.
+
+The backend is where our ~~worthless peons~~ customer service executives can help you get where you're contractually obliged to go, with custom dashboards.
+
+In accordance with legislation post purge, no AI was used in this software.
+
+_Thou shalt not make a machine in the likeness of a human mind_
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
