@@ -1,3 +1,4 @@
+import { cacheTag, cacheLife } from "next/cache";
 import client from "@/db/client";
 import { z } from "zod";
 import { Destination } from "@/generated/prisma/client";
@@ -42,5 +43,9 @@ export async function createDestination(formData: FormData) {
 }
 
 export async function getDestinations() {
+  "use cache";
+  cacheTag("destinations");
+  cacheLife("hours");
+
   return client.destination.findMany();
 }
